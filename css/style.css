@@ -1,0 +1,38 @@
+/* 1. Khai báo 3 file font nhưng dùng chung một tên font-family là "Gotham" */
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Thin.otf") format("opentype");
+  font-weight: 300; /* Nét thanh mảnh */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Medium.otf") format("opentype");
+  font-weight: 500; /* Nét vừa (mặc định) */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Ultra.otf") format("opentype");
+  font-weight: 900; 
+  font-style: normal;
+}
+
+
+header .nav-link {
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;            
+  font-size: 14px;
+  color: #282828;              
+  text-transform: uppercase;   
+  padding: 10px 16px;
+  transition: all 0.3s ease;
+}
+
+
+header .nav-underline .nav-link:hover {
+  color: #b78735;            
+  border-bottom-color: #bd7b0a;
+}
