@@ -1,4 +1,4 @@
-/* 1. Khai báo 3 file font nhưng dùng chung một tên font-family là "Gotham" */
+
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/Gotham-Thin.otf") format("opentype");
@@ -21,6 +21,8 @@
 }
 
 
+
+
 header .nav-link {
   font-family: "Gotham", sans-serif;
   font-weight: 500;            
@@ -35,4 +37,15 @@ header .nav-link {
 header .nav-underline .nav-link:hover {
   color: #b78735;            
   border-bottom-color: #bd7b0a;
+}
+
+.product-section .row.g-3 {
+  position: relative;
+  top: -10px; 
+}
+
+ .product-section .bg-white{
+  position: relative;
+  top: -80px; 
+  z-index: 100; 
 }
