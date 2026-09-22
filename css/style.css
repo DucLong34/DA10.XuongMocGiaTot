@@ -85,3 +85,11 @@ main {
   font-size: 14px;
 
 }
+
+.about-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ve-chung-toi/bg-about-us.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  min-height: 800px; 
+  padding: 80px 0;
+}
