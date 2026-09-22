@@ -48,4 +48,11 @@ header .nav-underline .nav-link:hover {
   position: relative;
   top: -80px; 
   z-index: 100; 
+  border-radius: 10px;
+}
+
+.mx-auto{
+  width: 130px;
+  height: 3px;
+  background-color: #b78735;
 }
