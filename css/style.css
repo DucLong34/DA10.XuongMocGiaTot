@@ -57,3 +57,18 @@ header .nav-underline .nav-link:hover {
   background-color: #b78735;
   border-radius: 30px;
 }
+
+
+.product-card img {
+  height: 180px;     
+  object-fit: cover;  
+}
+
+
+.product-card .card-title {
+  font-size: 13px;
+}
+
+.product-price {
+  font-size: 14px;
+}
