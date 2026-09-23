@@ -87,9 +87,45 @@ main {
 }
 
 .about-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ve-chung-toi/bg-about-us.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ve-chung-toi/bg-about-us.jpg') ;
   background-size: cover;
   color: #ffffff;
   min-height: 800px; 
   padding: 80px 0;
+}
+
+.about-section .row.align-items-center {
+  max-width: 850px;       
+  margin-left: auto;      
+  margin-right: auto; 
+  margin-top: -40px;
+}
+
+
+.about-section .row.align-items-center img[alt="Xưởng sản xuất"] {
+  max-width: none; 
+       
+}
+
+
+.about-section .col-12.col-lg-6.text-white h4 {
+  font-size: 20px;        
+}
+
+.about-section .col-12.col-lg-6.text-white p {
+  font-size: 10px;      
+  line-height: 1.5;
+}
+
+.divider-orange {
+  width: 80px;
+  height: 3px;
+  background-color: #bd7b0a;
+}
+
+/* Kích thước icon trong các ô tính năng */
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
