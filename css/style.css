@@ -117,15 +117,3 @@ main {
   line-height: 1.5;
 }
 
-.divider-orange {
-  width: 80px;
-  height: 3px;
-  background-color: #bd7b0a;
-}
-
-/* Kích thước icon trong các ô tính năng */
-.feature-icon {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-}
