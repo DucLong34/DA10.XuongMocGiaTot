@@ -205,10 +205,10 @@ main {
 .cta-section {
   position: relative;
   width: 100%;
-  background: url('../images/lienhe-bg.jpg') center/cover no-repeat; /* Đổi đường dẫn ảnh banner của bạn */
+  background: url('../images/lienhe-bg.jpg') center/cover no-repeat; 
   padding: 90px 0; 
   min-height: 300px;
-  overflow: visible;   /* Giúp chiếc ghế nhô lên trên mép */
+  overflow: visible;  
 }
 
 .cta-chair-img {
