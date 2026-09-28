@@ -1,15 +1,19 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/Gotham-Thin.otf") format("opentype");
-  font-weight: 300; /* Nét thanh mảnh */
+  font-weight: 300; 
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/Gotham-Medium.otf") format("opentype");
-  font-weight: 500; /* Nét vừa (mặc định) */
+  font-weight: 500; 
   font-style: normal;
 }
 
@@ -22,15 +26,18 @@
 
 
 
+.container{     
+  width: 1280px !important;
+}
 
 header .nav-link {
   font-family: "Gotham", sans-serif;
-  font-weight: 500;            
+            
   font-size: 14px;
   color: #282828;              
   text-transform: uppercase;   
   padding: 10px 16px;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
 }
 
 
@@ -40,9 +47,6 @@ header .nav-underline .nav-link:hover {
 }
 
 main {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 
@@ -95,7 +99,7 @@ main {
 }
 
 .about-section .row.align-items-center {
-  max-width: 850px;       
+  max-width: 100%;       
   margin-left: auto;      
   margin-right: auto; 
   margin-top: -40px;
@@ -118,8 +122,185 @@ main {
 }
 
 .icon {
-  width: 50px;
+  width: 100px;
   height: 50px;
   object-fit: contain;
 }
+
+.news-container {
+  max-width: 100%;
+}
+
+
+.news-featured {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 360px;
+}
+
+.news-featured img {
+  width: 1000px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.news-featured-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(189, 123, 10, 0.92);
+  padding: 14px 18px;
+  color: #fff;
+}
+
+
+.news-item img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.news-item h6 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #bd7b0a;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.news-item p {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.35;
+  margin: 0;
+}
+
+
+.btn-view-more {
+  color: #bd7b0a;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-view-more:hover {
+  color: #8c5a06;
+}
+
+.partner-logo {
+  max-height: 320px;       
+  
+  width: 190px;
+  object-fit: contain;
+
+}
+
+.partner-logo:hover {
+  transform: scale(1.05);
+}
+
+.cta-section {
+  position: relative;
+  width: 100%;
+  background: url('../images/lienhe-bg.jpg') center/cover no-repeat; /* Đổi đường dẫn ảnh banner của bạn */
+  padding: 90px 0; 
+  min-height: 300px;
+  overflow: visible;   /* Giúp chiếc ghế nhô lên trên mép */
+}
+
+.cta-chair-img {
+  position: absolute;
+  top: -140px;
+  left: 60px;
+  width: 340px;
+  z-index: 2;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+.cta-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.cta-input {
+  border: none;
+  font-size: 13px;
+  padding: 9px 14px;
+  border-radius: 4px;
+}
+
+.cta-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #333;
+  font-weight: 700;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  padding: 9px 25px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.cta-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.footer-section {
+  background-color: #2b2b2b;
+  color: #bbb;
+  padding: 45px 0 35px;
+}
+
+.footer-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  line-height: 2;
+  display: block;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #bd7b0a;
+}
+
+.footer-info p {
+  margin-bottom: 30px;
+  color: #aaa;
+}
+
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  color: #2b2b2b;
+  
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 
